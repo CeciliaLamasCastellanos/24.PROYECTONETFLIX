@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/ebff1e0f-5704-423f-b4c6-94914dabe25b/3ead36bd-73b7-42da-bd47-86e7a992b313/MX-es-20220509-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.encabezado{
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    align-content: flex-start;
+    width: 100vw;
+    height: 15vh;
+}
+
+.formulario{
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 55vh;
+}
+.cajita{
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 5px;
+    display:flex;
+    flex-direction: column;
+    width: 500px;
+}
+.inicio{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 32px;
+    color: whitesmoke;
+    padding-top: 20px;
+    padding-left: 65px;
+}
+.log{
+    padding-left: 65px;
+}
+input{
+    padding: 10px;
+}
+.espacio{
+    background-color: rgba(0,0,0,0.5);
+    height: 10vh;
+}
+.formcontrol{
+    width: 320px;
+    height: 25px;
+    background-color: #333;
+    border-color: #333;
+    border-radius: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color:#8c8c8c;
+}
+.campos{
+    height: 10px;
+}
+.campitos{
+    height: 60px;
+}
+.boton{
+    padding-left: 115px;
+    padding-right: 115px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    background-color: #E50914;
+    border-color: #E50914;
+    border-radius: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    color:white;
+}
+.boton:hover{
+    color: #9b0e0e;
+    background-color: #bc6355;
+    text-decoration: none;
+}
+.pie{
+    background-color: rgba(0,0,0,0.9);
+    width: 100vw;
+    height:20vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.preguntas{
+    padding-top: 20px;
+    width: 120vh;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #757575;
+}
+.menu{
+    padding-bottom: 20px;
+    width: 120vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color:#757575;
+}
